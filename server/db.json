@@ -1,0 +1,94 @@
+{
+  "users": [
+    {
+      "email": "ripon@gmail.com",
+      "password": "$2a$10$6myOfhm7ylqx9ilZwuUKCu354iTng6kKZisr3l1yt4Y44dd67lRvi",
+      "name": "syed kamruzzaman",
+      "id": 1
+    },
+    {
+      "email": "ripon2@gmail.com",
+      "password": "$2a$10$TcNAuckw22xtbFY9H.CbmOHHNH0PUA9Rw0Qp2F12wWClmQdnVNjmW",
+      "name": "syed",
+      "id": 2
+    },
+    {
+      "email": "ripon3@gmail.com",
+      "password": "$2a$10$rD6ZVZe8LLHrvRE/JRxxDO2I7jmJqgj404bKJwF6UGjMnxNQzBHa2",
+      "name": "ripxx",
+      "id": 3
+    }
+  ],
+  "conversations": [
+    {
+      "id": 1,
+      "participants": "ripon@gmail.com-akash@learnwithsumit.com",
+      "users": [
+        {
+          "email": "ripon@gmail.com",
+          "name": "Sumit Saha",
+          "id": 1
+        },
+        {
+          "email": "akash@learnwithsumit.com",
+          "name": "Akash Ahmed",
+          "id": 2
+        }
+      ],
+      "message": "How are you?",
+      "timestamp": 1661976143678
+    },
+    {
+      "id": 2,
+      "participants": "ripon@gmail.com-saad@learnwithsumit.com",
+      "users": [
+        {
+          "email": "ripon@gmail.com",
+          "name": "Sumit Saha",
+          "id": 1
+        },
+        {
+          "email": "akash@learnwithsumit.com",
+          "name": "Saad HasanXX",
+          "id": 3
+        }
+      ],
+      "message": "How are you Ripon?",
+      "timestamp": 1661976143678
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "conversationId": 1,
+      "sender": {
+        "email": "ripon@gmail.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "receiver": {
+        "email": "akash@learnwithsumit.com",
+        "name": "Akash Ahmed",
+        "id": 2
+      },
+      "message": "Hello",
+      "timestamp": 1661976143557
+    },
+    {
+      "id": 2,
+      "conversationId": 1,
+      "sender": {
+        "email": "akash@learnwithsumit.com",
+        "name": "Akash Ahmed",
+        "id": 2
+      },
+      "receiver": {
+        "email": "ripon@gmail.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "message": "How are Ripon?",
+      "timestamp": 1661976143678
+    }
+  ]
+}
